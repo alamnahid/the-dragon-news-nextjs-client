@@ -14,6 +14,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Link from 'next/link';
+import Header from './Header';
 
 const navItems = [
     {
@@ -47,6 +48,8 @@ function Navbar() {
 
 
     return (
+        <>
+        <Header/>
         <AppBar position="static" className='bg-black'>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
@@ -84,6 +87,7 @@ function Navbar() {
                 </Toolbar>
             </Container>
         </AppBar>
+        </>
     );
 }
 export default Navbar;
