@@ -2,24 +2,26 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
+import { CardActionArea, Divider, Stack } from '@mui/material';
 import Box from '@mui/material/Box';
 import topNews from "@/assets/top-news.png"
 import sidenews from "@/assets/side-top-news.png"
 import Image from 'next/image';
 import { Grid } from "@mui/material";
+import sideBottomNews from "@/assets/sidebottom.png"
+import SidebarNewsCard from './SidebarNewsCard';
 
 const SideBar = () => {
-    return (
-        <Box className="mt-10">
-             <Card>
+  return (
+    <Box className="mt-10 space-x-8">
+      <Card>
         <CardActionArea>
           <CardMedia>
-            <Image src={topNews} alt='topnews' width={800} />
+            <Image src={sidenews} alt='topnews' width={800} />
           </CardMedia>
           <CardContent className='space-y-3'>
             <p className='w-[10rem] text-white font-medium h-8 flex justify-center items-center rounded-lg bg-[#F00]'>Technology</p>
-            <Typography gutterBottom variant="h5" component="div" className='font-semibold'>
+            <Typography gutterBottom variant="h6" component="div" className='font-semibold'>
               Bitcoin Climbs as Elon Musk Says Tesla Likely to Accept it Again
             </Typography>
             <Typography gutterBottom>
@@ -31,10 +33,31 @@ const SideBar = () => {
           </CardContent>
         </CardActionArea>
       </Card>
-            
-        </Box>
-        
-    );
+
+      <Divider />
+
+      <Stack my={3} columnGap={2}>
+        <SidebarNewsCard />
+        <SidebarNewsCard />
+        <SidebarNewsCard />
+        <SidebarNewsCard />
+        <SidebarNewsCard />
+        <SidebarNewsCard />
+        <SidebarNewsCard />
+      </Stack>
+
+      <Box>
+        <Image
+          src={sideBottomNews}
+          height={400}
+          width={350}
+          alt="rectangle world image"
+        />
+      </Box>
+
+    </Box>
+
+  );
 };
 
 export default SideBar;

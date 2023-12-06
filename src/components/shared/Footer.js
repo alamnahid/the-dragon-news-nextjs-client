@@ -40,7 +40,7 @@ const Footer = () => {
 
 
     return (
-        <Box className="bg-black px-2 py-10">
+        <Box className="bg-black px-2 py-10 mt-10">
             <Container>
 
                 <Box className="w-full text-center" sx={{

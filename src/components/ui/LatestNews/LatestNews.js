@@ -6,7 +6,12 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import Box from '@mui/material/Box';
 import topNews from "@/assets/top-news.png"
-import sidenews from "@/assets/side-top-news.png"
+
+import side1 from "@/assets/side1.png"
+import side2 from "@/assets/side2.png"
+import side3 from "@/assets/side3.png"
+import side4 from "@/assets/side4.png"
+
 import Image from 'next/image';
 import { Grid } from "@mui/material";
 
@@ -40,15 +45,15 @@ export default function LatestNews() {
         <Card>
         <CardActionArea>
           <CardMedia>
-            <Image src={sidenews} alt='topnews' width={800} />
+            <Image src={side1} alt='topnews' width={800} />
           </CardMedia>
           <CardContent className='space-y-3'>
             <p className='w-[10rem] text-white font-medium h-8 flex justify-center items-center rounded-lg bg-[#F00]'>Technology</p>
             <Typography gutterBottom variant="h6" component="div" className='font-semibold'>
-              Bitcoin Climbs as Elon Musk Says Tesla Likely to Accept it Again
+            EU’s New Sanctions Aim to Cut Russia Off From World Bank
             </Typography>
             <Typography gutterBottom>
-              By Awlad Hossain - Mar 18 2023
+              By Nahid Alam - Mar 18 2023
             </Typography>
             <Typography variant="body2" color="text.secondary">
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout........
@@ -64,15 +69,15 @@ export default function LatestNews() {
         <Card>
         <CardActionArea>
           <CardMedia>
-            <Image src={sidenews} alt='topnews' width={800} />
+            <Image src={side2} alt='topnews' width={800} />
           </CardMedia>
           <CardContent className='space-y-3'>
             <p className='w-[10rem] text-white font-medium h-8 flex justify-center items-center rounded-lg bg-[#F00]'>Technology</p>
             <Typography gutterBottom variant="h6" component="div" className='font-semibold'>
-              Bitcoin Climbs as Elon Musk Says Tesla Likely to Accept it Again
+            Battle Analysis: Russian Tank Armada vs Ukraine
             </Typography>
             <Typography gutterBottom>
-              By Awlad Hossain - Mar 18 2023
+              By Nahid Alam - Mar 18 2023
             </Typography>
             <Typography variant="body2" color="text.secondary">
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout........
@@ -89,15 +94,15 @@ export default function LatestNews() {
         <Card>
         <CardActionArea>
           <CardMedia>
-            <Image src={sidenews} alt='topnews' width={800} />
+            <Image src={side3} alt='topnews' width={800} />
           </CardMedia>
           <CardContent className='space-y-3'>
             <p className='w-[10rem] text-white font-medium h-8 flex justify-center items-center rounded-lg bg-[#F00]'>Technology</p>
             <Typography gutterBottom variant="h6" component="div" className='font-semibold'>
-              Bitcoin Climbs as Elon Musk Says Tesla Likely to Accept it Again
+            France’s Largest Business Summit to Conclude on Mar 22
             </Typography>
             <Typography gutterBottom>
-              By Awlad Hossain - Mar 18 2023
+              By Nahid Alam - Mar 18 2023
             </Typography>
             <Typography variant="body2" color="text.secondary">
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout........
@@ -115,15 +120,15 @@ export default function LatestNews() {
         <Card>
         <CardActionArea>
           <CardMedia>
-            <Image src={sidenews} alt='topnews' width={800} />
+            <Image src={side4} alt='topnews' width={800} />
           </CardMedia>
           <CardContent className='space-y-3'>
             <p className='w-[10rem] text-white font-medium h-8 flex justify-center items-center rounded-lg bg-[#F00]'>Technology</p>
             <Typography gutterBottom variant="h6" component="div" className='font-semibold'>
-              Bitcoin Climbs as Elon Musk Says Tesla Likely to Accept it Again
+               Marquez Explains Lack of Confidence During Qatar GP Race
             </Typography>
             <Typography gutterBottom>
-              By Awlad Hossain - Mar 18 2023
+              By Nahid Alam - Mar 18 2023
             </Typography>
             <Typography variant="body2" color="text.secondary">
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout........
