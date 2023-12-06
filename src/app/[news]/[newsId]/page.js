@@ -64,7 +64,7 @@ const NewsDetailPage = async ({params}) => {
               ``Many desktop publishing packages and web page editors now use as
               their default model text!
             </Typography>
-            <Typography variant="h6">-Jhankar Mahbub Bhai</Typography>
+            <Typography variant="h6">-Md Nahid Alam</Typography>
           </Grid>
         </Grid>
       </Container>
