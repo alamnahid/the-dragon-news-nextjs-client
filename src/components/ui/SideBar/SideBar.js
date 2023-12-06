@@ -13,7 +13,7 @@ import SidebarNewsCard from './SidebarNewsCard';
 
 const SideBar = () => {
   return (
-    <Box className="mt-10 space-x-8">
+    <Box className="mt-5 space-x-8">
       <Card>
         <CardActionArea>
           <CardMedia>
